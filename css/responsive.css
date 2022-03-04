@@ -30,14 +30,14 @@
     .second_header_section img 
     {
         margin-top: 30px;
-        width: 330px;
+        /* width: 300px; */
+        /* width: 80%; */
+        padding: 0 20px;
         height: 260px;
         display: block;
-        
-         display: block;
-         margin-left: auto;
-         margin-right: auto;
-         width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
   
     }
 
@@ -235,7 +235,7 @@
 
  #footer_logo
  {
-     width: 480px;
+     width: 80%;
      height: 110px;
  }
 
@@ -258,6 +258,23 @@
      transform: scale(1.1);
      transition: .5s;
  }
+
+
+
+ #youtube_video
+ {
+     width: 90%;
+     margin-left: 20px;
+     display: block;
+     height: 315px;
+ 
+ }
+
+
+
+
+
+
 
 
   }
