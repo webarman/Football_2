@@ -17,12 +17,6 @@
 
 
 
-
-
-
-
-
-
 .first_header_section h1
 {
     font-size: 64px;
@@ -46,8 +40,14 @@
 
 .second_header_section img 
 {
-    width: 388px;
+    width: 500px;
     height: 388px;
+    transition: 1s;
+    cursor: pointer;
+}
+.second_header_section img:hover 
+{
+    transform: scale(1.1);
 }
 
 /* MAIN_SECTION */
